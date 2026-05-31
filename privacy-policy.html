@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سياسة الخصوصية — ميزانيتي</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #F8FAFC;
+      color: #0F172A;
+      line-height: 1.8;
+    }
+    .header {
+      background: #4F46E5;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .header h1 { font-size: 2rem; margin-bottom: 8px; }
+    .header p { opacity: 0.85; font-size: 1rem; }
+    .lang-switch {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      padding: 20px;
+      background: white;
+      border-bottom: 1px solid #E2E8F0;
+    }
+    .lang-btn {
+      padding: 8px 24px;
+      border-radius: 20px;
+      border: 2px solid #4F46E5;
+      background: white;
+      color: #4F46E5;
+      cursor: pointer;
+      font-size: 0.95rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .lang-btn.active {
+      background: #4F46E5;
+      color: white;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    .section {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+    .section h2 {
+      color: #4F46E5;
+      font-size: 1.1rem;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #EEF2FF;
+    }
+    .section p, .section li {
+      color: #475569;
+      font-size: 0.95rem;
+      margin-bottom: 6px;
+    }
+    .section ul { padding-right: 20px; }
+    .section li { margin-bottom: 4px; }
+    .date {
+      text-align: center;
+      color: #94A3B8;
+      font-size: 0.85rem;
+      margin-bottom: 24px;
+    }
+    .contact-card {
+      background: #EEF2FF;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+    .contact-card a { color: #4F46E5; text-decoration: none; font-weight: 600; }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #94A3B8;
+      font-size: 0.85rem;
+    }
+    [dir="ltr"] { direction: ltr; text-align: left; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>💰 ميزانيتي — Mizaniati</h1>
+  <p id="header-sub">سياسة الخصوصية</p>
+</div>
+
+<div class="lang-switch">
+  <button class="lang-btn active" onclick="showLang('ar')">العربية 🇸🇦</button>
+  <button class="lang-btn" onclick="showLang('en')">English 🇬🇧</button>
+</div>
+
+<!-- Arabic -->
+<div id="content-ar" class="container">
+  <p class="date">آخر تحديث: يونيو 2025</p>
+
+  <div class="section">
+    <h2>مقدمة</h2>
+    <p>نلتزم في تطبيق ميزانيتي بحماية خصوصيتك. توضّح هذه السياسة كيفية جمع بياناتك واستخدامها وحمايتها عند استخدام تطبيقنا.</p>
+  </div>
+
+  <div class="section">
+    <h2>البيانات التي نجمعها</h2>
+    <ul>
+      <li>بيانات الحساب: الاسم، عنوان البريد الإلكتروني، والصورة الشخصية عند تسجيل الدخول بحساب Google.</li>
+      <li>البيانات المالية: الميزانيات، المصروفات، الدخل، وبيانات الرحلات التي تُدخلها أنت.</li>
+      <li>بيانات الجهاز: معلومات تقنية أساسية لتحسين أداء التطبيق.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>كيف نستخدم بياناتك</h2>
+    <ul>
+      <li>لتقديم خدمات إدارة الميزانية وحفظ بياناتك.</li>
+      <li>لمزامنة بياناتك عبر أجهزتك المختلفة.</li>
+      <li>لإرسال تنبيهات وإشعارات متعلقة بميزانيتك.</li>
+      <li><strong>لا نبيع بياناتك لأي طرف ثالث.</strong></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>تخزين البيانات</h2>
+    <p>تُحفظ بياناتك على خوادم Supabase المؤمّنة. نتخذ إجراءات أمنية مناسبة لحماية معلوماتك من الوصول غير المصرّح به.</p>
+  </div>
+
+  <div class="section">
+    <h2>مشاركة البيانات</h2>
+    <p>لا نشارك بياناتك الشخصية مع أطراف ثالثة إلا في الحالات التالية:</p>
+    <ul>
+      <li>عند الالتزام بمتطلبات قانونية.</li>
+      <li>لحماية حقوقنا القانونية.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>حقوقك</h2>
+    <ul>
+      <li>الوصول إلى بياناتك وتعديلها في أي وقت.</li>
+      <li>حذف حسابك وجميع بياناتك عند الطلب.</li>
+      <li>تصدير بياناتك.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>الكاميرا والصور</h2>
+    <p>يطلب التطبيق إذن الكاميرا فقط لتصوير الفواتير. لا يتم حفظ الصور على خوادمنا.</p>
+  </div>
+
+  <div class="section">
+    <h2>الإشعارات</h2>
+    <p>نستخدم الإشعارات لتذكيرك بالأقساط والمصروفات المتكررة. يمكنك إيقافها من إعدادات هاتفك في أي وقت.</p>
+  </div>
+
+  <div class="section">
+    <h2>تغييرات على السياسة</h2>
+    <p>قد نُحدّث هذه السياسة من وقت لآخر. سنُخطرك بأي تغييرات جوهرية عبر التطبيق.</p>
+  </div>
+
+  <div class="section contact-card">
+    <h2>تواصل معنا</h2>
+    <p>لأي استفسارات حول الخصوصية:</p>
+    <p><a href="mailto:rami.elgayyar@gmail.com">rami.elgayyar@gmail.com</a></p>
+    <p>المملكة العربية السعودية</p>
+  </div>
+</div>
+
+<!-- English -->
+<div id="content-en" class="container hidden" dir="ltr">
+  <p class="date" style="text-align:center">Last updated: June 2025</p>
+
+  <div class="section">
+    <h2>Introduction</h2>
+    <p>At Mizaniati, we are committed to protecting your privacy. This policy explains how we collect, use, and protect your data when using our app.</p>
+  </div>
+
+  <div class="section">
+    <h2>Data We Collect</h2>
+    <ul>
+      <li>Account data: name, email address, and profile picture when signing in with Google.</li>
+      <li>Financial data: budgets, expenses, income, and trip data that you enter.</li>
+      <li>Device data: basic technical information to improve app performance.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>How We Use Your Data</h2>
+    <ul>
+      <li>To provide budget management services and save your data.</li>
+      <li>To sync your data across your devices.</li>
+      <li>To send budget-related alerts and notifications.</li>
+      <li><strong>We do not sell your data to any third party.</strong></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Data Storage</h2>
+    <p>Your data is stored on secure Supabase servers. We take appropriate security measures to protect your information from unauthorized access.</p>
+  </div>
+
+  <div class="section">
+    <h2>Data Sharing</h2>
+    <p>We do not share your personal data with third parties except:</p>
+    <ul>
+      <li>When required by law.</li>
+      <li>To protect our legal rights.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Your Rights</h2>
+    <ul>
+      <li>Access and modify your data at any time.</li>
+      <li>Delete your account and all your data upon request.</li>
+      <li>Export your data.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Camera & Photos</h2>
+    <p>The app requests camera permission only to photograph receipts. Images are not stored on our servers.</p>
+  </div>
+
+  <div class="section">
+    <h2>Notifications</h2>
+    <p>We use notifications to remind you of installments and recurring expenses. You can disable them in your phone settings at any time.</p>
+  </div>
+
+  <div class="section">
+    <h2>Policy Changes</h2>
+    <p>We may update this policy from time to time. We will notify you of any material changes through the app.</p>
+  </div>
+
+  <div class="section contact-card">
+    <h2>Contact Us</h2>
+    <p>For any privacy inquiries:</p>
+    <p><a href="mailto:rami.elgayyar@gmail.com">rami.elgayyar@gmail.com</a></p>
+    <p>Saudi Arabia</p>
+  </div>
+</div>
+
+<footer>
+  © 2025 ميزانيتي — Mizaniati. All rights reserved.
+</footer>
+
+<script>
+  function showLang(lang) {
+    document.getElementById('content-ar').classList.toggle('hidden', lang !== 'ar');
+    document.getElementById('content-en').classList.toggle('hidden', lang !== 'en');
+    document.getElementById('header-sub').textContent = lang === 'ar' ? 'سياسة الخصوصية' : 'Privacy Policy';
+    document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+  }
+</script>
+</body>
+</html>
